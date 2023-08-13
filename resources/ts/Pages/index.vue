@@ -6,8 +6,10 @@
     </dev>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { Head } from '@inertiajs/vue3'
 
-defineProps({ name: String })
+defineProps<{
+  name: string,
+}>()
 </script>
