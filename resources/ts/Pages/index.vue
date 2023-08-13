@@ -1,9 +1,10 @@
 <template>
-    <dev>
-        <Head title="ようこそ" />
-        <h1>ようこそ</h1>
-        <p>こんにちは {{ name }} さん。</p>
-    </dev>
+  <dev>
+    <Head title="ようこそ" />
+    <h1>ようこそ</h1>
+    <p>こんにちは {{ name }} さん。</p>
+    <Counter />
+  </dev>
 </template>
 
 <script setup lang="ts">

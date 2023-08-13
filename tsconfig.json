@@ -3,7 +3,7 @@
     "include": [
         "resources/**/*.ts",
         "resources/**/*.d.ts",
-        "resources/**/*.vue"
+        "resources/**/*.vue",
     ],
     "compilerOptions": {
         "baseUrl": ".",
