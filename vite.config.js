@@ -14,7 +14,12 @@ export default defineConfig({
     AutoImport({
       dts: 'resources/ts/types/auto-imports.d.ts',
       dirs: ['resources/ts/composables'],
-      imports: ['vue'],
+      imports: [
+        'vue',
+        {
+          'ziggy-js': [['default', 'route']],
+        }
+      ],
     }),
     laravel({
       input: ['resources/ts/app.ts'],

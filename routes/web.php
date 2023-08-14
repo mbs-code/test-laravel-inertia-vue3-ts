@@ -18,4 +18,4 @@ Route::get('/', function () {
     return Inertia::render('index', [
         'name' => '山田太郎',
     ]);
-});
+})->name('home');
